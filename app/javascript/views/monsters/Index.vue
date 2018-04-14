@@ -1,5 +1,7 @@
 <template lang="pug">
-  code {{ monsters }}
+ul
+  li(v-for='monster in monsters', :key='monster.id')
+    router-link(:to='showLink(monster)') {{ monster.name }}
 </template>
 <script>
 import { mapState } from 'vuex'
@@ -12,6 +14,16 @@ export default {
   },
   async created() {
     await this.$store.dispatch('monster/fetchAll')
+  },
+  methods: {
+    showLink(monster) {
+      return {
+        name: 'monsters_show',
+        params: {
+          slug: monster.slug
+        }
+      }
+    }
   }
 }
 </script>
