@@ -47,11 +47,8 @@ if @monster.bribe_drop
     json.name @monster.bribe_drop.item.name
     json.amount @monster.bribe_drop.amount
     json.cost @monster.bribe_drop.cost
-
-    json.api_details do
-      json.id @monster.bribe_drop.item.id
-      json.slug @monster.bribe_drop.item.slug
-    end
+    json.id @monster.bribe_drop.item.id
+    json.slug @monster.bribe_drop.item.slug
   end
 else
   json.bribe_drop nil
@@ -63,11 +60,8 @@ if @monster.kill_drops
       json.name kill_drop.item.name
       json.amount kill_drop.amount
       json.rare kill_drop.rare
-
-      json.api_details do
-        json.id kill_drop.item.id
-        json.slug kill_drop.item.slug
-      end
+      json.id kill_drop.item.id
+      json.slug kill_drop.item.slug
     end
   end
 else
@@ -80,11 +74,8 @@ if @monster.steal_drops
       json.name steal_drop.item.name
       json.amount steal_drop.amount
       json.rare steal_drop.rare
-
-      json.api_details do
-        json.id steal_drop.item.id
-        json.slug steal_drop.item.slug
-      end
+      json.id steal_drop.item.id
+      json.slug steal_drop.item.slug
     end
   end
 else

@@ -9341,15 +9341,28 @@ MixItem.create!([
 ]) if MixItem.count == 0
 
 # Since SeedDump doesn't support HABTM, we're doing this
-File.open('db/monsters_with_locations.json') do |f|
-  f.each_line do |line|
-    json = JSON.parse line
-    json.each do |j|
-      # Please excuse the one-letter vars
-      m = Monster.find_by(name: j['monster_name'])
-      j['locations'].each do |l|
-        m.locations << Location.find_by(name: l)
-      end
-    end
-  end
+
+# File.open('db/monsters_with_locations.json') do |f|
+#   f.each_line do |line|
+#     json = JSON.parse line
+#     json.each do |j|
+#       # Please excuse the one-letter vars
+#       m = Monster.find_by(name: j['monster_name'])
+#       j['locations'].each do |l|
+#         m.locations << Location.find_by(name: l)
+#       end
+#     end
+#   end
+# end
+
+f = File.read('db/key_items.json')
+j = JSON.parse(f)
+
+j.each do |k|
+  KeyItem.create(
+    name: k['name'],
+    description: k['description'],
+    location: Location.find_by(name: k['location']),
+    details: k['details']
+  )
 end

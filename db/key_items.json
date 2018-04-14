@@ -1,0 +1,751 @@
+[
+  {
+    "name": "Al Bhed Primer II",
+    "location": "Besaid",
+    "description": "Translates P to B",
+    "details": "Found in the Crusader's Lodge near attendant's desk.",
+    "api_details": {
+      "item": {
+        "id": 2,
+        "slug": "al-bhed-primer-ii"
+      },
+      "location": {
+        "id": 19,
+        "slug": "besaid"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer III",
+    "location": "S.S. Liki",
+    "description": "Translates L to C",
+    "details": "Found in the power room.  Re-obtainable in Bikanel Desert where Wakka was found.",
+    "api_details": {
+      "item": {
+        "id": 3,
+        "slug": "al-bhed-primer-iii"
+      },
+      "location": {
+        "id": 28,
+        "slug": "s-s-liki"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer IV",
+    "location": "Kilika",
+    "description": "Translates T to D",
+    "details": "Found in the tavern on the counter.  Only available after Yuna's sending",
+    "api_details": {
+      "item": {
+        "id": 4,
+        "slug": "al-bhed-primer-iv"
+      },
+      "location": {
+        "id": 21,
+        "slug": "kilika"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer V",
+    "location": "S.S. Winno",
+    "description": "Translates A to E",
+    "details": "Found on bridge. Re-obtainable in Bikanel Desert, by rubble near where Kimahri is found)",
+    "api_details": {
+      "item": {
+        "id": 5,
+        "slug": "al-bhed-primer-v"
+      },
+      "location": {
+        "id": 30,
+        "slug": "s-s-winno"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer VI",
+    "location": "Luca",
+    "description": "Translates V to F",
+    "details": "Found in the stadium - basement B",
+    "api_details": {
+      "item": {
+        "id": 6,
+        "slug": "al-bhed-primer-vi"
+      },
+      "location": {
+        "id": 23,
+        "slug": "luca"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer VII",
+    "location": "Luca",
+    "description": "Translates K to G",
+    "details": "Found in the lower-left corner of the theatre",
+    "api_details": {
+      "item": {
+        "id": 7,
+        "slug": "al-bhed-primer-vii"
+      },
+      "location": {
+        "id": 23,
+        "slug": "luca"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer VIII",
+    "location": "Mi'ihen Highroad",
+    "description": "Translates R to H",
+    "details": "Automatically given to you by Rin",
+    "api_details": {
+      "item": {
+        "id": 8,
+        "slug": "al-bhed-primer-viii"
+      },
+      "location": {
+        "id": 17,
+        "slug": "mi-ihen-highroad"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer IX",
+    "location": "Mi'ihen Highroad",
+    "description": "Translates E to I",
+    "details": "Found on the Newroad, North",
+    "api_details": {
+      "item": {
+        "id": 9,
+        "slug": "al-bhed-primer-ix"
+      },
+      "location": {
+        "id": 17,
+        "slug": "mi-ihen-highroad"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer X",
+    "location": "Mushroom Rock",
+    "description": "Translates G to K",
+    "details": "Found on the Precipice, right before the elevator",
+    "api_details": {
+      "item": {
+        "id": 10,
+        "slug": "al-bhed-primer-x"
+      },
+      "location": {
+        "id": 22,
+        "slug": "mushroom-rock"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XI",
+    "location": "Djose Highroad and Temple",
+    "description": "Translates G to K",
+    "details": "Found behind a stone pillar on the way to the temple.",
+    "api_details": {
+      "item": {
+        "id": 11,
+        "slug": "al-bhed-primer-xi"
+      },
+      "location": {
+        "id": 13,
+        "slug": "djose-highroad-and-temple"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XII",
+    "location": "Moonflow",
+    "description": "Translates M to L",
+    "details": "Found on the North Warf",
+    "api_details": {
+      "item": {
+        "id": 12,
+        "slug": "al-bhed-primer-xii"
+      },
+      "location": {
+        "id": 14,
+        "slug": "moonflow"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XIII",
+    "location": "Guadosalam",
+    "description": "Translates S to M",
+    "details": "Found in the westmost house",
+    "api_details": {
+      "item": {
+        "id": 13,
+        "slug": "al-bhed-primer-xiii"
+      },
+      "location": {
+        "id": 31,
+        "slug": "guadosalam"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XIV",
+    "location": "Thunder Plains",
+    "description": "Translates H to N",
+    "details": "Found in the Agency if you tell Rin your studies are going well.  Re-obtainable in Bikanel Desert",
+    "api_details": {
+      "item": {
+        "id": 14,
+        "slug": "al-bhed-primer-xiv"
+      },
+      "location": {
+        "id": 5,
+        "slug": "thunder-plains"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XV",
+    "location": "Macalania Woods",
+    "description": "Translates U to O",
+    "details": "Found across from O'aka in an alcove",
+    "api_details": {
+      "item": {
+        "id": 15,
+        "slug": "al-bhed-primer-xv"
+      },
+      "location": {
+        "id": 15,
+        "slug": "macalania-woods"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XVI",
+    "location": "Lake Macalania",
+    "description": "Translates B to P",
+    "details": "Found in front of agency",
+    "api_details": {
+      "item": {
+        "id": 16,
+        "slug": "al-bhed-primer-xvi"
+      },
+      "location": {
+        "id": 9,
+        "slug": "lake-macalania"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XVII",
+    "location": "Sanubia Desert",
+    "description": "Translates N to R",
+    "details": "Found in northern Central under ruins",
+    "api_details": {
+      "item": {
+        "id": 17,
+        "slug": "al-bhed-primer-xvii"
+      },
+      "location": {
+        "id": 7,
+        "slug": "sanubia-desert"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XVIII",
+    "location": "Sanubia Desert",
+    "description": "Translates N to R",
+    "details": "Found in Central",
+    "api_details": {
+      "item": {
+        "id": 18,
+        "slug": "al-bhed-primer-xviii"
+      },
+      "location": {
+        "id": 7,
+        "slug": "sanubia-desert"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XX",
+    "location": "Home",
+    "description": "Translates D to T",
+    "details": "Found in the Living Quarters on a bed. This is a missable Primer - you will not be able to return to Home",
+    "api_details": {
+      "item": {
+        "id": 20,
+        "slug": "al-bhed-primer-xx"
+      },
+      "location": {
+        "id": 16,
+        "slug": "home"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XXI",
+    "location": "Home",
+    "description": "Translates I to U",
+    "details": "Found at the end of Main Corridor. This is a missable Primer - you will not be able to return to Home",
+    "api_details": {
+      "item": {
+        "id": 21,
+        "slug": "al-bhed-primer-xxi"
+      },
+      "location": {
+        "id": 16,
+        "slug": "home"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XXII",
+    "location": "Bevelle",
+    "description": "Translates J to V",
+    "details": "Found in the Priest's Passage.  This is a missable Primer - you will not be able to return to Bevelle Temple",
+    "api_details": {
+      "item": {
+        "id": 22,
+        "slug": "al-bhed-primer-xxii"
+      },
+      "location": {
+        "id": 10,
+        "slug": "bevelle"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XXIII",
+    "location": "Calm Lands",
+    "description": "Translates F to W",
+    "details": "Found in western Central",
+    "api_details": {
+      "item": {
+        "id": 23,
+        "slug": "al-bhed-primer-xxiii"
+      },
+      "location": {
+        "id": 8,
+        "slug": "calm-lands"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XXIV",
+    "location": "Remiem Temple",
+    "description": "Translates Q to X",
+    "details": "Found on the left fork outside the temple",
+    "api_details": {
+      "item": {
+        "id": 24,
+        "slug": "al-bhed-primer-xxiv"
+      },
+      "location": {
+        "id": 32,
+        "slug": "remiem-temple"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XXV",
+    "location": "Cavern of the Stolen Fayth",
+    "description": "Translates O to Y",
+    "details": "Found in a western alcove",
+    "api_details": {
+      "item": {
+        "id": 25,
+        "slug": "al-bhed-primer-xxv"
+      },
+      "location": {
+        "id": 20,
+        "slug": "cavern-of-the-stolen-fayth"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XXVI",
+    "location": "Omega Ruins",
+    "description": "Translates W to Z",
+    "details": "Found at the back of the cave near four chests",
+    "api_details": {
+      "item": {
+        "id": 26,
+        "slug": "al-bhed-primer-xxvi"
+      },
+      "location": {
+        "id": 4,
+        "slug": "omega-ruins"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer I",
+    "location": "Salvage Ship",
+    "description": "Translates Y to A",
+    "details": "Found in rear-right corner of Salvage Ship.  Re-obtainable in Bikanel Desert, northeastern area of the Oasis",
+    "api_details": {
+      "item": {
+        "id": 1,
+        "slug": "al-bhed-primer-i"
+      },
+      "location": {
+        "id": 27,
+        "slug": "salvage-ship"
+      }
+    }
+  },
+  {
+    "name": "Al Bhed Primer XIX",
+    "location": "Home",
+    "description": "Translates C to S",
+    "details": "Found in first room after cutscene on the left.  This is a missable Primer - you will not be able to return to Home",
+    "api_details": {
+      "item": {
+        "id": 19,
+        "slug": "al-bhed-primer-xix"
+      },
+      "location": {
+        "id": 16,
+        "slug": "home"
+      }
+    }
+  },
+  {
+    "name": "Blossom Crown",
+    "location": "Monster Arena",
+    "description": "Seems to have some connection with a hidden aeon...",
+    "details": "Obtainable after capturing one of each fiend on Mt. Gagazet.  Unlocks one of the seals on the Chamber of the Fayth in Remiem Temple.",
+    "api_details": {
+      "item": {
+        "id": 27,
+        "slug": "blossom-crown"
+      },
+      "location": {
+        "id": 1,
+        "slug": "monster-arena"
+      }
+    }
+  },
+  {
+    "name": "Cloudy Mirror",
+    "location": "Remiem Temple",
+    "description": "The surface is dark and clouded",
+    "details": "Obtained after winning a Chocobo race at Remiem Temple.  Must be changed to the Celestial Mirror before being of any use.",
+    "api_details": {
+      "item": {
+        "id": 29,
+        "slug": "cloudy-mirror"
+      },
+      "location": {
+        "id": 32,
+        "slug": "remiem-temple"
+      }
+    }
+  },
+  {
+    "name": "Celestial Mirror",
+    "location": "Macalania Woods",
+    "description": "The surface is shiny and bright",
+    "details": "Converted from the Cloudy Mirror, used to obtain the legendary weapons",
+    "api_details": {
+      "item": {
+        "id": 28,
+        "slug": "celestial-mirror"
+      },
+      "location": {
+        "id": 15,
+        "slug": "macalania-woods"
+      }
+    }
+  },
+  {
+    "name": "Flower Scepter",
+    "location": "Remiem Temple",
+    "description": "Seems to have some connection with a hidden aeon...",
+    "details": "Beat all of Belgemine's Aeons in Remiem Temple.  Unlocks one of the seals on the Chamber of the Fayth in Remiem Temple",
+    "api_details": {
+      "item": {
+        "id": 30,
+        "slug": "flower-scepter"
+      },
+      "location": {
+        "id": 32,
+        "slug": "remiem-temple"
+      }
+    }
+  },
+  {
+    "name": "Jecht's Sphere",
+    "location": "Macalania Woods",
+    "description": "A sphere recorded by Jecht ten years ago",
+    "details": "The first of 10 spheres left behind by Jecht, Braska and Auron on their pilgrimage",
+    "api_details": {
+      "item": {
+        "id": 31,
+        "slug": "jecht-s-sphere"
+      },
+      "location": {
+        "id": 15,
+        "slug": "macalania-woods"
+      }
+    }
+  },
+  {
+    "name": "Sun Crest",
+    "location": "Destruction of Zanarkand",
+    "description": "A Celestial Token, fashioned in the shape of the Sun",
+    "details": "Partially powers up Tidus's Caladbolg.  Found in Zanarkand Dome after defeating Yunalesca.  If missed, you'll have to defeat an incredibly powerful boss to re-obtain.",
+    "api_details": {
+      "item": {
+        "id": 34,
+        "slug": "sun-crest"
+      },
+      "location": {
+        "id": 29,
+        "slug": "destruction-of-zanarkand"
+      }
+    }
+  },
+  {
+    "name": "Jupiter Crest",
+    "location": "Luca",
+    "description": "A Celestial Token, fashioned in the shape of Jupiter",
+    "details": "Partially powers up Wakka's World Champion.  Found in Besaid Aurochs' locker room",
+    "api_details": {
+      "item": {
+        "id": 32,
+        "slug": "jupiter-crest"
+      },
+      "location": {
+        "id": 23,
+        "slug": "luca"
+      }
+    }
+  },
+  {
+    "name": "Sun Sigil",
+    "location": "Calm Lands",
+    "description": "A Celestial Token, fashioned in the shape of the Sun",
+    "details": "Fully powers up Tidus's Caladbolg. To obtain, beat the Chocobo trainer in the Calm Lands with a time 0:00. ",
+    "api_details": {
+      "item": {
+        "id": 35,
+        "slug": "sun-sigil"
+      },
+      "location": {
+        "id": 8,
+        "slug": "calm-lands"
+      }
+    }
+  },
+  {
+    "name": "Jupiter Sigil",
+    "location": null,
+    "description": "A Celestial Token, fashioned in the shape of Jupiter",
+    "details": "Fully powers up Wakka's World Champion. Randomly appears with 50% chance as prize in a blitzball league once the player wins all three of Wakka's Overdrives in previous competitions. ",
+    "api_details": {
+      "item": {
+        "id": 33,
+        "slug": "jupiter-sigil"
+      },
+      "location": null
+    }
+  },
+  {
+    "name": "Mars Crest",
+    "location": "Mi'ihen Highroad",
+    "description": "A Celestial Token, fashioned in the shape of Mars",
+    "details": "Partially powers up Auron's Masamune.  Obtained near the entrance to Mushroom Rock Road, along the final area of the Mi'ihen Highroad",
+    "api_details": {
+      "item": {
+        "id": 36,
+        "slug": "mars-crest"
+      },
+      "location": {
+        "id": 17,
+        "slug": "mi-ihen-highroad"
+      }
+    }
+  },
+  {
+    "name": "Mars Sigil",
+    "location": "Monster Arena",
+    "description": "A Celestial Token, fashioned in the shape of Mars",
+    "details": "Fully powers up Auron's Masamune.  To obtain, unlock a total of ten Area Conquest or Species Conquest monsters",
+    "api_details": {
+      "item": {
+        "id": 37,
+        "slug": "mars-sigil"
+      },
+      "location": {
+        "id": 1,
+        "slug": "monster-arena"
+      }
+    }
+  },
+  {
+    "name": "Mercury Crest",
+    "location": "Sanubia Desert",
+    "description": "A Celestial Token, fashioned in the shape of Mecury",
+    "details": "Partially powers up Rikku's Godhand.  Obtained in a treasure chest in a shifting sand pit in the final area of Bikanel Desert",
+    "api_details": {
+      "item": {
+        "id": 38,
+        "slug": "mercury-crest"
+      },
+      "location": {
+        "id": 7,
+        "slug": "sanubia-desert"
+      }
+    }
+  },
+  {
+    "name": "Moon Sigil",
+    "location": "Remiem Temple",
+    "description": "A Celestial Token, fashioned in the shape of the Moon",
+    "details": "Fully powers up Yuna's Nirvana.  Obtained after sending Belgemine",
+    "api_details": {
+      "item": {
+        "id": 41,
+        "slug": "moon-sigil"
+      },
+      "location": {
+        "id": 32,
+        "slug": "remiem-temple"
+      }
+    }
+  },
+  {
+    "name": "Saturn Crest",
+    "location": "Gagazet - Mountain Path",
+    "description": "A Celestial Token, fashioned in the shape of Saturn",
+    "details": "Partially powers up Kimahri's Spirit Lance.  Obtained near the top of Mt. Gagazet",
+    "api_details": {
+      "item": {
+        "id": 42,
+        "slug": "saturn-crest"
+      },
+      "location": {
+        "id": 12,
+        "slug": "gagazet-mountain-path"
+      }
+    }
+  },
+  {
+    "name": "Mercury Sigil",
+    "location": "Bikanel Island",
+    "description": "A Celestial Token, fashioned in the shape of Mecury",
+    "details": "Fully powers up Rikku's Godhand.  To obtain, the player must complete the cactuar sidequest on Bikanel Island (available after gaining the airship)",
+    "api_details": {
+      "item": {
+        "id": 39,
+        "slug": "mercury-sigil"
+      },
+      "location": {
+        "id": 33,
+        "slug": "bikanel-island"
+      }
+    }
+  },
+  {
+    "name": "Moon Crest",
+    "location": "Besaid",
+    "description": "A Celestial Token, fashioned in the shape of the Moon",
+    "details": "Partially powers up Yuna's Nirvana.  Found on the beach in Besaid",
+    "api_details": {
+      "item": {
+        "id": 40,
+        "slug": "moon-crest"
+      },
+      "location": {
+        "id": 19,
+        "slug": "besaid"
+      }
+    }
+  },
+  {
+    "name": "Saturn Sigil",
+    "location": "Macalania Woods",
+    "description": "A Celestial Token, fashioned in the shape of Saturn",
+    "details": "Fully powers up Kimahri's Spirit Lance.  Obtained after winning the butterfly game",
+    "api_details": {
+      "item": {
+        "id": 43,
+        "slug": "saturn-sigil"
+      },
+      "location": {
+        "id": 15,
+        "slug": "macalania-woods"
+      }
+    }
+  },
+  {
+    "name": "Venus Crest",
+    "location": "Guadosalam",
+    "description": "A Celestial Token, fashioned in the shape of Venus",
+    "details": "Partially powers up Lulu's Onion Knight.  Obtained in the Farplane",
+    "api_details": {
+      "item": {
+        "id": 44,
+        "slug": "venus-crest"
+      },
+      "location": {
+        "id": 31,
+        "slug": "guadosalam"
+      }
+    }
+  },
+  {
+    "name": "Venus Sigil",
+    "location": "Thunder Plains",
+    "description": "A Celestial Token, fashioned in the shape of Venus",
+    "details": "Fully powers up Lulu's Onion Knight.  Obtained by dodging 200 consecutive bolts",
+    "api_details": {
+      "item": {
+        "id": 45,
+        "slug": "venus-sigil"
+      },
+      "location": {
+        "id": 5,
+        "slug": "thunder-plains"
+      }
+    }
+  },
+  {
+    "name": "Mark of Conquest",
+    "location": "Monster Arena",
+    "description": "Given to those who have surpassed mortal bounds",
+    "details": "No use.  Obtained after mastering Monster Arena",
+    "api_details": {
+      "item": {
+        "id": 46,
+        "slug": "mark-of-conquest"
+      },
+      "location": {
+        "id": 1,
+        "slug": "monster-arena"
+      }
+    }
+  },
+  {
+    "name": "Aeon's Soul",
+    "location": "Remiem Temple",
+    "description": "Allows you to raise the aeon's stats",
+    "details": "Gift for fighting Belgemine at Calm Lands.  Allows the player to spend items to raise aeons' attributes. ",
+    "api_details": {
+      "item": {
+        "id": 47,
+        "slug": "aeon-s-soul"
+      },
+      "location": {
+        "id": 32,
+        "slug": "remiem-temple"
+      }
+    }
+  }
+]

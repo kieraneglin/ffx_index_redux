@@ -2,10 +2,10 @@ import axios from 'axios'
 import types from '../types'
 
 export default {
-  async fetch({ commit }) {
-    // let response = await axios.get('/api/v1/partner/action_center_items')
+  async fetch({ commit }, param) {
+    let response = await axios.get(`/api/v1/monsters/${param}`)
 
-    // commit(types.MONSTER.FETCH, response.data)
+    commit(types.MONSTER.FETCH, response.data)
   },
   async fetchAll({ commit, state }) {
     if(!state.monsters.length) {
