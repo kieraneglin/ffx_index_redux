@@ -1,14 +1,17 @@
 <template lang="pug">
-  h1 hey
+  code {{ monsters }}
 </template>
 <script>
-import axios from 'axios'
+import { mapState } from 'vuex'
 
 export default {
+  computed: {
+    ...mapState('monster', {
+      monsters: state => state.monsters
+    })
+  },
   async created() {
-    let response = await axios.get('/api/v1/monsters')
-
-    console.log(response)
-  }  
+    await this.$store.dispatch('monster/fetchAll')
+  }
 }
 </script>
