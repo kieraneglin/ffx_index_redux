@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 2018_04_14_180253) do
     t.integer "gil"
     t.boolean "boss"
     t.string "notes"
+    t.string "skills"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

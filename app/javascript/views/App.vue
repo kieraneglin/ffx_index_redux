@@ -12,8 +12,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 body {
-  // Must leave here for webpacker
+  text-align: inherit
+  /* Must leave here for webpacker */
 }
 </style>

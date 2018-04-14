@@ -18,6 +18,7 @@ class CreateMonsters < ActiveRecord::Migration[5.2]
       t.integer :gil
       t.boolean :boss
       t.string :notes
+      t.string :skills
 
       t.timestamps
     end
