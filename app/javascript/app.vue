@@ -1,7 +1,5 @@
-<template>
-  <div id="app">
-    <p>{{ message }}</p>
-  </div>
+<template lang="pug">
+  h1 hey
 </template>
 
 <script>
