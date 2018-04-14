@@ -22,5 +22,7 @@
 #
 
 class Ability < ApplicationRecord
-  belongs_to :item
+  belongs_to :item, optional: true
+  
+  has_many :monster_drop_abilities
 end
