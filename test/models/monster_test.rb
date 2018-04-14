@@ -18,7 +18,7 @@
 #  evasion       :integer
 #  accuracy      :integer
 #  gil           :integer
-#  boss          :boolean
+#  boss          :boolean          default(FALSE)
 #  notes         :string
 #  skills        :string
 #  created_at    :datetime         not null

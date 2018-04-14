@@ -16,7 +16,7 @@ class CreateMonsters < ActiveRecord::Migration[5.2]
       t.integer :evasion
       t.integer :accuracy
       t.integer :gil
-      t.boolean :boss
+      t.boolean :boss, default: false
       t.string :notes
       t.string :skills
 

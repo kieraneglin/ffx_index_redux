@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: items
+#
+#  id          :bigint(8)        not null, primary key
+#  name        :string
+#  effect      :text
+#  effect_type :string
+#  slug        :string
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  effect: MyText
+  effect_type: MyString
+  slug: MyString
+
+two:
+  name: MyString
+  effect: MyText
+  effect_type: MyString
+  slug: MyString
