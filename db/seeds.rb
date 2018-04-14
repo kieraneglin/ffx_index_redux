@@ -2661,7 +2661,6 @@ MonsterDropAbility.create!([
   {monster_id: 213, ability_id: 41, ability_type: "weapon"},
   {monster_id: 213, ability_id: 75, ability_type: "armour"},
   {monster_id: 213, ability_id: 17, ability_type: "armour"},
-  {monster_id: 214, ability_id: nil, ability_type: "weapon"},
   {monster_id: 214, ability_id: 47, ability_type: "weapon"},
   {monster_id: 214, ability_id: 75, ability_type: "armour"},
   {monster_id: 214, ability_id: 49, ability_type: "armour"},

@@ -9,6 +9,7 @@
 #  ice        :float
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  water      :float
 #
 # Indexes
 #
