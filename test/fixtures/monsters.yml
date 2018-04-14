@@ -1,0 +1,65 @@
+# == Schema Information
+#
+# Table name: monsters
+#
+#  id            :bigint(8)        not null, primary key
+#  name          :string
+#  slug          :string
+#  health        :integer
+#  overkill      :integer
+#  strength      :integer
+#  defense       :integer
+#  magic         :integer
+#  magic_defense :integer
+#  mp            :integer
+#  agility       :integer
+#  luck          :integer
+#  ap            :integer
+#  evasion       :integer
+#  accuracy      :integer
+#  gil           :integer
+#  boss          :boolean
+#  notes         :string
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  slug: MyString
+  health: 1
+  overkill: 1
+  strength: 1
+  defense: 1
+  magic: 1
+  magic_defense: 1
+  mp: 1
+  agility: 1
+  luck: 1
+  ap: 1
+  evasion: 1
+  accuracy: 1
+  gil: 1
+  boss: false
+  notes: MyString
+
+two:
+  name: MyString
+  slug: MyString
+  health: 1
+  overkill: 1
+  strength: 1
+  defense: 1
+  magic: 1
+  magic_defense: 1
+  mp: 1
+  agility: 1
+  luck: 1
+  ap: 1
+  evasion: 1
+  accuracy: 1
+  gil: 1
+  boss: false
+  notes: MyString
