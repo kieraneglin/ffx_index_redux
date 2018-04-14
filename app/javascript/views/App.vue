@@ -1,14 +1,10 @@
 <template lang="pug">
-  h1 hey
+  router-view
 </template>
 
 <script>
 export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
-    }
-  }
+
 }
 </script>
 
