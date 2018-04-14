@@ -1,16 +1,17 @@
 <template lang="pug">
-  router-view
+  div
+    navbar
+    router-view
 </template>
-
 <script>
-export default {
+import Navbar from './shared/Navbar.vue'
 
+export default {
+  components: {
+    Navbar
+  }
 }
 </script>
-
 <style>
-body {
-  text-align: inherit
-  /* Must leave here for webpacker */
-}
+@import ''; /* Leave this empty rule for Webpack */
 </style>
