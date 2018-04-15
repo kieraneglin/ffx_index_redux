@@ -3,15 +3,15 @@ import types from '../types'
 
 export default {
   async fetch({ commit }, param) {
-    let response = await axios.get(`/api/v1/monsters/${param}`)
+    let response = await axios.get(`/api/v1/locations/${param}`)
 
-    commit(types.MONSTER.FETCH, response.data)
+    commit(types.LOCATION.FETCH, response.data)
   },
   async fetchAll({ commit, state }) {
     if(!state.monsters.length) {
-      let response = await axios.get('/api/v1/monsters')
+      let response = await axios.get('/api/v1/locations')
   
-      commit(types.MONSTER.FETCH_ALL, response.data)
+      commit(types.LOCATION.FETCH_ALL, response.data)
     }
   }
 }
