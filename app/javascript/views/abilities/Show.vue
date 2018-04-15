@@ -1,20 +1,20 @@
 <template lang="pug">
-  code {{ item }}
+  code {{ ability }}
 </template>
 <script>
 import { mapState } from 'vuex'
 
 export default {
   computed: {
-    ...mapState('item', {
-      item: state => state.item
+    ...mapState('ability', {
+      ability: state => state.ability
     })
   },
   async created() {
-    await this.$store.dispatch('item/fetch', this.$route.params.slug)
+    await this.$store.dispatch('ability/fetch', this.$route.params.slug)
   },
   beforeDestroy() {
-    this.$store.commit('item/clear')
+    this.$store.commit('ability/clear')
   }
 }
 </script>
