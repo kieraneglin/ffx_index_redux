@@ -4,6 +4,15 @@ class Api::V1::LocationsController < ApplicationController
   end
 
   def show
-    @location = Location.find_by_id_or_slug(params[:id])
+    @location = Location.includes(preload_hash).find_by_id_or_slug(params[:id])
+  end
+
+  private
+
+  def preload_hash
+    {
+      monsters: [],
+      key_items: []
+    }
   end
 end

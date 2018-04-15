@@ -12,6 +12,9 @@ export default {
   },
   async created() {
     await this.$store.dispatch('monster/fetch', this.$route.params.slug)
+  },
+  beforeDestroy() {
+    this.$store.commit('monster/clear')
   }
 }
 </script>
