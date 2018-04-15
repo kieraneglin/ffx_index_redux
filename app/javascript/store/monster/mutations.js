@@ -7,4 +7,7 @@ export default {
   [types.MONSTER.FETCH_ALL](state, payload) {
     state.monsters = payload
   },
+  [types.MONSTER.CLEAR](state) {
+    state.monster = {}
+  }
 }
