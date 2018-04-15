@@ -8,7 +8,7 @@ export default {
     commit(types.LOCATION.FETCH, response.data)
   },
   async fetchAll({ commit, state }) {
-    if(!state.monsters.length) {
+    if(!state.locations.length) {
       let response = await axios.get('/api/v1/locations')
   
       commit(types.LOCATION.FETCH_ALL, response.data)
