@@ -1,26 +1,26 @@
 <template lang="pug">
 ul
-  li(v-for='item in items', :key='item.id')
-    router-link(:to='showLink(item)') {{ item.name }}
+  li(v-for='ability in abilities', :key='ability.id')
+    router-link(:to='showLink(ability)') {{ ability.name }}
 </template>
 <script>
 import { mapState } from 'vuex'
 
 export default {
   computed: {
-    ...mapState('item', {
-      items: state => state.items
+    ...mapState('ability', {
+      abilities: state => state.abilities
     })
   },
   async created() {
-    await this.$store.dispatch('item/fetchAll')
+    await this.$store.dispatch('ability/fetchAll')
   },
   methods: {
-    showLink(item) {
+    showLink(ability) {
       return {
-        name: 'items_show',
+        name: 'abilities_show',
         params: {
-          slug: item.slug
+          slug: ability.slug
         }
       }
     }

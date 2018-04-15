@@ -13,5 +13,10 @@ export default {
     FETCH: 'fetch',
     FETCH_ALL: 'fetchAll',
     CLEAR: 'clear'
+  },
+  ABILITY: {
+    FETCH: 'fetch',
+    FETCH_ALL: 'fetchAll',
+    CLEAR: 'clear'
   }
 }
