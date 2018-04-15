@@ -1,6 +1,6 @@
 class Api::V1::MonstersController < ApplicationController
   def index
-    @monsters = Monster.all
+    @monsters = Monster.order(:name).all
   end
 
   def show
