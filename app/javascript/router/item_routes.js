@@ -1,15 +1,18 @@
-import Show from '../views/items/Show.vue'
-import Index from '../views/items/Index.vue'
+import ItemDetails from '../views/items/ItemDetails.vue'
+import Items from '../views/items/Items.vue'
 
 export default [
   {
     path: '/items',
-    component: Index,
-    name: 'items_index'
+    component: Items,
+    name: 'items_index',
+    title: 'Items',
+    icon: 'build',
+    navRoute: true,
   },
   {
     path: '/items/:slug',
-    component: Show,
-    name: 'items_show'
+    component: ItemDetails,
+    name: 'items_show',
   }
 ]

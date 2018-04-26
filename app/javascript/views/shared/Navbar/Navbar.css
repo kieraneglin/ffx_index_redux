@@ -1,22 +1,8 @@
-.container {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-height: 4rem;
-    width: 100%;
-    padding: 0 2rem;
-    background-color: rgba(0, 0, 0, 0.3);
+.navbar-toolbar {
+    z-index: 6;
 }
 
-.link > a{
+.navbar-link {
     text-transform: uppercase;
-    margin-right: 1rem;
-    color: #e8cd01;
-}
-
-.link > a:visited {
-    color: #e8cd01;
+    text-decoration: none;
 }

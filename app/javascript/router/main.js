@@ -7,17 +7,19 @@ import AbilityRoutes from './ability_routes'
 import MonsterRoutes from './monster_routes'
 import LocationRoutes from './location_routes'
 
-Vue.use(Router)
+Vue.use(Router);
+
+export const routes = [
+  ...HomeRoutes,
+  ...ItemRoutes,
+  ...AbilityRoutes,
+  ...MonsterRoutes,
+  ...LocationRoutes
+];
 
 const router = new Router({
   mode: 'history',
-  routes: [
-    ...HomeRoutes,
-    ...ItemRoutes,
-    ...AbilityRoutes,
-    ...MonsterRoutes,
-    ...LocationRoutes
-  ]
-})
+  routes,
+});
 
 export default router

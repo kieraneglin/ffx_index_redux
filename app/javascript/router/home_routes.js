@@ -4,6 +4,9 @@ export default [
   {
     path: '/',
     component: Home,
-    name: 'root'
+    name: 'root',
+    title: 'Home',
+    icon: 'home',
+    navRoute: true,
   }
 ]

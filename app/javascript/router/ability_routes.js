@@ -1,15 +1,18 @@
-import Show from '../views/abilities/Show.vue'
-import Index from '../views/abilities/Index.vue'
+import Abilities from '../views/abilities/Abilities.vue';
+import AbilityDetails from '../views/abilities/AbilityDetails.vue';
 
 export default [
   {
     path: '/abilities',
-    component: Index,
-    name: 'abilities_index'
+    component: Abilities,
+    name: 'abilities_index',
+    title: 'Abilities',
+    icon: 'build',
+    navRoute: true,
   },
   {
     path: '/abilities/:slug',
-    component: Show,
+    component: AbilityDetails,
     name: 'abilities_show'
   }
 ]

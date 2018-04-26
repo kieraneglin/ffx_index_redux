@@ -1,15 +1,18 @@
-import Show from '../views/monsters/Show.vue'
-import Index from '../views/monsters/Index.vue'
+import Monsters from '../views/monsters/Monsters.vue';
+import MonsterDetails from '../views/monsters/MonsterDetails.vue';
 
 export default [
   {
     path: '/monsters',
-    component: Index,
-    name: 'monsters_index'
+    component: Monsters,
+    name: 'monsters_index',
+    title: 'Monsters',
+    icon: 'build',
+    navRoute: true,
   },
   {
     path: '/monsters/:slug',
-    component: Show,
-    name: 'monsters_show'
+    component: MonsterDetails,
+    name: 'monsters_show',
   }
 ]
