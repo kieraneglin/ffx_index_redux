@@ -1,15 +1,17 @@
-import Show from '../views/locations/Show.vue'
-import Index from '../views/locations/Index.vue'
+import Locations from '../views/locations/Locations.vue';
+import LocationDetails from '../views/locations/LocationDetails.vue';
 
 export default [
   {
     path: '/locations',
-    component: Index,
-    name: 'locations_index'
-  },
-  {
+    component: Locations,
+    name: 'locations_index',
+    title: 'Locations',
+    icon: 'build',
+    navRoute: true,
+  }, {
     path: '/locations/:slug',
-    component: Show,
-    name: 'locations_show'
-  }
+    component: LocationDetails,
+    name: 'locations_show',
+  },
 ]

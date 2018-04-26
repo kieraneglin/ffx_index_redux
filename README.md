@@ -1,24 +1,30 @@
-# README
+# FFX Index
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+FFX Index is the all-in-one resource for FFX players.
 
-Things you may want to cover:
+## Installation guide
 
-* Ruby version
+* Install ruby
 
-* System dependencies
+* Install bundler
+`gem install bundler`
 
-* Configuration
+* Move to the project folder
 
-* Database creation
+* Run bundle install
+`bundle install`
 
-* Database initialization
+* Create and populate DB
+`rake db:setup`
 
-* How to run the test suite
+* Restart postgresql service (if needed)
+```
+# MacOS
+brew services restart postgresql
 
-* Services (job queues, cache servers, search engines, etc.)
+# Linux
+sudo service postgresql restart
+```
 
-* Deployment instructions
-
-* ...
+* Start the server
+`bin/rails server`

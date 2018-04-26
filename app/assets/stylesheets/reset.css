@@ -52,10 +52,11 @@ html {
     font-weight: 100;
     background-color: #000;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
 /* Yellow: #e8cd01 */
 /* Blue: #4276c7 */
-/* Purple: #4276c7 */
+/* Purple: #73529a */
