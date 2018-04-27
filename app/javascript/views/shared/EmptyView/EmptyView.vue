@@ -1,6 +1,6 @@
 <template lang="pug">
     v-layout(class="empty-view-root" row align-center)
-      img(v-bind:src="`/assets/${img}`")
+      img(:src="`../../../../assets/${img}`")
       p "{{ text }}"
 </template>
 
@@ -18,7 +18,7 @@
         required: false,
         default: 'Nothing to see here...',
       },
-    }
+    },
   }
 </script>
 
