@@ -1,6 +1,6 @@
 <template lang="pug">
     v-layout(class="loading-view-root" row align-center)
-      img(:src="`/assets/${img}`")
+      img(:src="`../../../../assets/${img}`")
       p "{{ text }}"
 </template>
 
