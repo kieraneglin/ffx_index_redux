@@ -1,9 +1,12 @@
-import Root from '../views/home/Root.vue'
+import Home from '../views/home/Home.vue'
 
 export default [
   {
     path: '/',
-    component: Root,
-    name: 'root'
+    component: Home,
+    name: 'root',
+    title: 'Home',
+    icon: 'home',
+    navRoute: true,
   }
 ]

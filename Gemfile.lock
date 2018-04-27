@@ -77,6 +77,7 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     erubi (1.7.1)
+    execjs (2.7.0)
     ffi (1.9.23)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -169,6 +170,8 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    uglifier (4.1.10)
+      execjs (>= 0.3.0, < 3)
     web-console (3.6.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -205,6 +208,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+  uglifier
   web-console (>= 3.3.0)
   webpacker
 
@@ -212,4 +216,4 @@ RUBY VERSION
    ruby 2.4.2p198
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

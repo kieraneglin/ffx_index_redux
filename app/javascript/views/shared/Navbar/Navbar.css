@@ -1,0 +1,8 @@
+.navbar-toolbar {
+    z-index: 6;
+}
+
+.navbar-link {
+    text-transform: uppercase;
+    text-decoration: none;
+}

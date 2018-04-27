@@ -1,0 +1,7 @@
+.searchbar-root {
+  padding: 0.5rem 1rem;
+}
+
+.searchbar-root > .icon {
+  margin-right: 1rem;
+}
